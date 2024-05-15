@@ -14,13 +14,14 @@ module.exports = {
       },
       gridTemplateColumns:{
         'auto-fill-240':'repeat(auto-fit,minmax(240px,1fr))',
+        'custom':'2fr 1fr 1fr',
       },
       boxShadow:{
         'custom': '0px 0px 10px #00000015'
       },
       textColor:{
         'tomato':'tomato'
-      }
+      },
     },
   },
   plugins: [],
