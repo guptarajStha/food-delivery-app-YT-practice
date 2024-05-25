@@ -12,3 +12,6 @@
     }
     
 }
+*{
+    scroll-behavior: smooth;
+}

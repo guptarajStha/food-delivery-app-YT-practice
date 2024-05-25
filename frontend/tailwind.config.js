@@ -22,6 +22,9 @@ module.exports = {
       textColor:{
         'tomato':'tomato'
       },
+      backgroundColor:{
+        'tomato':'tomato'
+      }
     },
   },
   plugins: [],

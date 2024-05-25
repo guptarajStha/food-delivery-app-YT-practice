@@ -2,17 +2,17 @@ import React from "react";
 import { menu_list } from "../assets/assets";
 const ExploreMenu = ({ category, setCategory }) => {
   return (
-    <div className="explore-menu flex flex-col gap-[20px]">
+    <div className="explore-menu flex flex-col gap-[20px]" id="explore-menu">
       <h1 className="font-medium text-[#262626] text-[34px]">
         Explore our menu
       </h1>
-      <p className=" max-w-[60%] text-[#808080]">
+      <p className="text-[#808080] text-[14px] max-w-[100%]">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officia
         explicabo possimus, quis sunt ab voluptatem soluta numquam
         reprehenderit, doloremque, corporis iure modi. Enim voluptatum eligendi
         ullam consequuntur omnis? Unde.
       </p>
-      <div className="explore-menu-list flex justify-between  items-center gap-[30px] text-center my-[20px] mx-0">
+      <div className="explore-menu-list overflow-x-scroll  flex justify-between  items-center gap-[30px] text-center my-[20px] mx-0">
         {menu_list.map((item, index) => {
           return (
             <div
