@@ -15,14 +15,19 @@ module.exports = {
       gridTemplateColumns:{
         'auto-fill-240':'repeat(auto-fit,minmax(240px,1fr))',
         'custom':'2fr 1fr 1fr',
+        'custom1':'1fr 1.5fr 1fr 1fr 1fr 0.5fr',
       },
       boxShadow:{
         'custom': '0px 0px 10px #00000015'
       },
       textColor:{
-        'tomato':'tomato'
+        'tomato':'tomato',
+        'grey':'grey'
       },
       backgroundColor:{
+        'tomato':'tomato'
+      },
+      outlineColor:{
         'tomato':'tomato'
       }
     },
